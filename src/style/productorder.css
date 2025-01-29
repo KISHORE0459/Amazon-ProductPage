@@ -230,5 +230,6 @@
 @media screen and (max-width: 800px) {
   #productorder {
     width: 90vw;
+    margin-bottom: 40px;
   }
 }

@@ -1,0 +1,44 @@
+#secondnav {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(2, 32, 48);
+  width: 90vw;
+  color: white;
+}
+#secondnav > div {
+  width: auto;
+  min-width: fit-content;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin: 3px 5px;
+  padding: 5px;
+}
+#secondnav > div:hover {
+  transform: scale(0.98);
+  box-shadow: 0px 0px 1px 1px white;
+  cursor: pointer;
+}
+#secondnav > div > h3 {
+  width: auto;
+  font-size: 13px;
+  font-weight: bold;
+  display: flex;
+  flex-wrap: nowrap;
+}
+#add {
+  width: 40%;
+  height: 25px;
+  margin-left: 5px;
+}
+#add > img {
+  width: 400px;
+  height: 20px;
+}
+@media screen and (max-width: 1100px) {
+  #secondnav {
+    display: none;
+  }
+}

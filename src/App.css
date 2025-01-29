@@ -1,0 +1,21 @@
+#container {
+  position: relative;
+}
+
+#product {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+#product {
+  position: relative;
+  display: flex;
+}
+@media screen and (max-width: 800px) {
+  #product {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+}

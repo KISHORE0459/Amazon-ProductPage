@@ -1,0 +1,161 @@
+#prod-specs {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+}
+#varient-color {
+  width: 220px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#varient-color > h4,
+#size-ctn > h4,
+#style-ctn > h4 {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 100;
+  margin: 5px 0px;
+}
+.varient {
+  width: 35%;
+  height: auto;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid rgb(146, 146, 146);
+  border-radius: 6px;
+}
+.varient:hover {
+  cursor: pointer;
+}
+.prod-var-img {
+  width: 100%;
+}
+.prod-var-price {
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+}
+.prod-var-sprice {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+}
+.delivery {
+  font-size: 11px;
+  font-weight: 200;
+  color: rgb(4, 59, 141);
+}
+.delivery-date {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#size-ctn {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#size-ctn > div {
+  width: 37%;
+  height: 40px;
+  border: 1px solid rgb(162, 162, 162);
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+  font-size: 15px;
+  margin: 5px;
+}
+#size-ctn > div:hover {
+  cursor: pointer;
+}
+#style-ctn {
+  width: 100%;
+  margin-top: 10px;
+}
+#style-ctn > h4 {
+  margin-bottom: 15px;
+}
+.spectable {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: 7px 3px;
+  margin-left: 0px;
+}
+.spectable > b {
+  flex: 3;
+  font-size: 14px;
+  font-weight: bold;
+}
+.spectable > h4 {
+  flex: 6;
+  font-size: 14px;
+  font-weight: 500;
+}
+#prod-about {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+#prod-about > h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+#prod-about > ul {
+  width: 90%;
+  display: flex;
+  margin-left: 20px;
+  flex-direction: column;
+}
+#prod-about > ul > li {
+  font-size: 15px;
+  font-weight: 300;
+}
+#seemore {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+}
+#seemore > h4 {
+  display: flex;
+  align-items: center;
+  color: rgb(26, 106, 209);
+  font-size: 14px;
+  font-weight: 200;
+}
+#seemore > h4:hover {
+  color: rgb(6, 51, 150);
+  cursor: pointer;
+  text-decoration: underline;
+}
+#report {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 15px;
+  color: rgb(28, 98, 184);
+  margin-top: 10px;
+  margin-left: 0px;
+}
+#message-icon {
+  width: 22px;
+  height: 22px;
+  color: black;
+  margin-right: 10px;
+}
+#report:hover {
+  color: rgb(8, 66, 132);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 800px) {
+  #prod-specs {
+    width: 90vw;
+  }
+}

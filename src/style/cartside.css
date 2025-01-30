@@ -138,7 +138,7 @@
 }
 /* Custom Scrollbar */
 #cart-products::-webkit-scrollbar {
-  width: 5px; /* Width of the scrollbar */
+  width: 4px; /* Width of the scrollbar */
 }
 
 /* Track */
@@ -149,13 +149,13 @@
 
 /* Handle */
 #cart-products::-webkit-scrollbar-thumb {
-  background: #888; /* Color of the handle */
+  background: #c3c3c3; /* Color of the handle */
   border-radius: 10px;
 }
 
 /* Handle on hover */
 #cart-products::-webkit-scrollbar-thumb:hover {
-  background: #555; /* Color of the handle when hovered over */
+  background: #828282; /* Color of the handle when hovered over */
 }
 
 @media screen and (max-width: 1100px) {

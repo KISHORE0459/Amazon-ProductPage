@@ -71,7 +71,6 @@
 #delivery-location {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   margin-top: 15px;
 }
 #location {
@@ -179,6 +178,7 @@
 #order-btns > button,
 #wishlist > button {
   width: 90%;
+  max-width: 200px;
   height: 30px;
   border-radius: 20px;
   margin-top: 9px;

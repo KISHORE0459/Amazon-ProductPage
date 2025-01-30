@@ -1,5 +1,4 @@
 import { IoMenuSharp } from "react-icons/io5";
-import addimg from "../assets/addimg.png";
 import "../style/navtwo.css";
 const Navtwo = () => {
   return (
@@ -38,8 +37,14 @@ const Navtwo = () => {
       <div id="customerservice">
         <h3>Customer Service</h3>
       </div>
-      <div id="add">
-        <img src={addimg} alt="" />
+      <div>
+        <h3>New Releases</h3>
+      </div>
+      <div>
+        <h3>Amazon Basics</h3>
+      </div>
+      <div>
+        <h3>Home Improvement</h3>
       </div>
     </nav>
   );

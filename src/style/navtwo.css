@@ -2,6 +2,7 @@
   height: 40px;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   background-color: rgb(2, 32, 48);
   width: 90vw;
   color: white;

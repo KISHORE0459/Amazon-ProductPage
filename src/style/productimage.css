@@ -55,6 +55,9 @@
   margin: 5px;
   margin-left: 20px;
 }
+#share-img:hover {
+  cursor: pointer;
+}
 
 @media screen and (max-width: 800px) {
   #prod-image-ctn {
